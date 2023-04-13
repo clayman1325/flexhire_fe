@@ -1,0 +1,10 @@
+.landing {
+  display: flex;
+}
+.aside {
+  flex-direction: row;
+}
+.body {
+  
+  flex-direction: row;
+}
