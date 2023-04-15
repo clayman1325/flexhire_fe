@@ -7,22 +7,52 @@
     height: 13%;
     flex-direction: column;
     width:100%;
-    border: solid red 1px;
-}
-.background {
-    height: 20%;
-    flex-direction: column;
-    width:100%;
-    border: solid rgb(0, 255, 26) 1px;
 }
 .options {
     height: 10%;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+.background {
+    height: 10%;
     flex-direction: column;
     width:100%;
-    border: solid rgb(5, 5, 5) 1px;
 }
 .main {
     flex-direction: column;
     width:100%;
-    border: solid rgb(68, 0, 255) 1px;
+}
+.share {
+    width: 30%;
+    height: 100%;
+}
+.availability {
+    width: 34%;
+    height: 100%;
+}
+.visibility {
+    width: 36%;
+    height: 100%;
+}
+.share button {
+    background: none;
+    margin-top: 3%;
+    margin-left: 10%;
+    border-radius: 20%;
+    background-color: rgb(184, 250, 217);
+    width: 15%;
+    height: 60%;
+    border: none;
+}
+svg {
+    margin-top:7%;
+    color: rgb(46, 203, 128);
+    font-size: 12px;
+    margin-left: 5%;
+}
+path {
+    margin-top: 5%;
+    fill: rgb(46, 203, 128);
+    font-size: 12px;
 }

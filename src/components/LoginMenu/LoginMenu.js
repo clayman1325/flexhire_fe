@@ -3,6 +3,7 @@ import classes from "./LoginMenu.module.css";
 
 import Menu from "./Menu"
 import ProfileImg from "./profile_img.jpeg"
+import DownArrow from "../DownArrow.js"
 
 const LoginMenu = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
@@ -20,7 +21,7 @@ const LoginMenu = () => {
         <div className={classes.logInMenu}>
             <div>
                 <button onClick={handleDropDown}>
-                    <svg><path d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"></path></svg>
+                    <DownArrow />
                 </button>
             </div>
             <div>

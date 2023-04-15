@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:60%;
+    width: 90%;
+    margin-top:3%;
+    margin-left:2%;
+    border-radius: 4%;
+    border: solid rgb(202, 206, 204) 2px;
+}
+
+.config {
+    display: flex;
+    flex-direction: row;
+}
+.profileName {
+    position:absolute;
+    top:20px;
+    left: 900px;
+    font-size: 14px;
+    opacity: 1;
+    background: white;
+    margin: 5%;
+}
+.visibilityState {
+
+    margin: 3%;
+    margin-left:5%;
+    width: 90%;
+    height: 10%;
+}
+span {
+    width: 10%;
+}
+span svg {
+    width: 100%;
+}
+.ul {
+    padding: 0px !important;
+    position: absolute;
+    top:132px;
+    width: 23.5%;
+    margin: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+    opacity: 1;
+    z-index: 20;
+    background: white;
+}
+.ul li{
+    padding:0px;
+    margin-top: 5%;
+    list-style-type: none;
+}
