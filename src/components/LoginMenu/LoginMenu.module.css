@@ -1,0 +1,29 @@
+.main {
+    display:flex;
+    justify-content: space-between;
+    height: 42%;
+}
+.user {
+    margin-top: 10%;
+}
+.user p {
+    margin: 0px
+}
+.logInMenu {
+    position:absolute;
+    margin-top:  2%;
+    margin-left: 10%;
+    width: 7%;
+    height: 10%;
+}
+.logInMenu button {
+    background: none;
+    border: none;
+    width: 100%;
+    height: inherit;
+}
+.logInMenu button svg{
+    width: 50%;
+    height: 20px;
+    margin-left: 55%;
+}

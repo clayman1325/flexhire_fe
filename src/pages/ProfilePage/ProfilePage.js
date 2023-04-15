@@ -1,6 +1,31 @@
+import classes from "./ProfilePage.module.css";
+import Header from "./Header";
+
 const ProfilePage = () => {
     return (
-        <h1> This is the profile page</h1>
+        <body className={classes.body}>
+            <div className={classes.header}>
+               <Header />
+            </div>
+            <div className={classes.background}>
+                <div>
+                    <buttom> Share </buttom>
+                </div>
+                <div>
+                    <toggle> Open to opportunities </toggle>
+                </div>
+                <div>
+                    <div> Profile visibility </div>
+                </div>
+
+            </div>
+            <div className={classes.options}>
+
+            </div>
+            <div className={classes.main}>
+
+            </div>
+        </body>
     )
 }
 
