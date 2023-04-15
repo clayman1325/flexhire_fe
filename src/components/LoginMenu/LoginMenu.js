@@ -2,6 +2,7 @@ import { useState } from "react";
 import classes from "./LoginMenu.module.css";
 
 import Menu from "./Menu"
+import ProfileImg from "./profile_img.jpeg"
 
 const LoginMenu = () => {
   const [openDropdown, setOpenDropdown] = useState(false);
@@ -12,6 +13,9 @@ const LoginMenu = () => {
 
   return (
     <div className={classes.main}>
+        <div  className={classes.img}>
+            <img src={ProfileImg} />
+        </div>
         <div className={classes.user}> <p>WELCOME </p> <p>DAVID MEJIA!</p> </div>
         <div className={classes.logInMenu}>
             <div>

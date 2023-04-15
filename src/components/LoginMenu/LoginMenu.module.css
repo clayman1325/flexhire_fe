@@ -1,6 +1,5 @@
 .main {
     display:flex;
-    justify-content: space-between;
     height: 42%;
 }
 .user {
@@ -12,9 +11,10 @@
 .logInMenu {
     position:absolute;
     margin-top:  2%;
-    margin-left: 10%;
+    margin-left: 163px;
     width: 7%;
     height: 10%;
+
 }
 .logInMenu button {
     background: none;
@@ -23,7 +23,16 @@
     height: inherit;
 }
 .logInMenu button svg{
-    width: 50%;
+    width: 30%;
     height: 20px;
-    margin-left: 55%;
+    margin-left: 65%;
+}
+.img {
+    margin-top: 2%;
+    width:40%;
+}
+.img img {
+    margin-left: 15%;
+    width: 70%;
+    border-radius: 55%;
 }
