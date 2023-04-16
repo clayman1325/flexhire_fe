@@ -1,0 +1,10 @@
+.main {
+    width: 25%;
+    height: 100%;
+}
+.attributes_container{
+    width: 75%;
+    height: 75%;
+    margin-top: 45%;
+    margin-left: 15%;
+}

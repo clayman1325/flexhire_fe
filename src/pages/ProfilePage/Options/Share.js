@@ -2,7 +2,8 @@ import classes from "./Share.module.css"
 
 const Share = () => {
     const handleShare = () =>{
-        alert("share profile")
+        const currentUrl = window.location.href;
+        alert("share profile using the following url: " + currentUrl)
     }
     return (
         <button onClick={handleShare}>

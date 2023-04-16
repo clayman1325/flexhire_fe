@@ -5,7 +5,7 @@ import Visibility from "./Visibility";
 import Availability from "./Availability";
 
 const Options = (props) => {
-    const [availabilityState, setAvailabilityState] = useState(false);
+    const [availabilityState, setAvailabilityState] = useState(true);
 
     return (
         <div className={classes.main}>

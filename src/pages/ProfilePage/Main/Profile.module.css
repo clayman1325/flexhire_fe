@@ -1,0 +1,35 @@
+.main {
+    width: 50%;
+}
+.container {
+    margin:5%;
+}
+.img {
+    margin-top: -35%;
+    width:80%;
+}
+.img img {
+    margin-left: 25%;
+    width: 70%;
+    border-radius: 55%;
+}
+.info {
+    margin-left: 10%;
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user_name {
+    width:35%;
+    height: 60px;
+}
