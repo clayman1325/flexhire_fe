@@ -1,6 +1,6 @@
 import classes from "./Visibility.module.css"
 import { useState } from "react"
-import DownArrow from "../../components/DownArrow";
+import DownArrow from "../../../components/DownArrow";
 
 const Visibility = () => {
     const [visibilityState, setVisibilityState] = useState("Private");
