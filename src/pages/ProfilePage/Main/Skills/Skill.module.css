@@ -1,0 +1,19 @@
+.main {
+  width:70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.span {
+  background-color: rgb(208, 208, 232);
+  border-radius: 12%;
+  margin-left: 2px;
+  width: 30%
+}
+.p {
+  margin-right: 2px;
+  background-color: rgb(208, 208, 232);
+  border-radius: 12%;
+  margin: 0px;
+  width:70%;
+}

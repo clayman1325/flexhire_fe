@@ -20,16 +20,16 @@ const ProfilePage = () => {
     //     console.log(data)
 
     // }
-    const data = usePreloadedQuery(
-        graphql`
-            query ProfilePageQuery {
-                currentUser {
-                    name
-                }
-            }
-        `,
-    );
-    console.log("....", data);
+    // const data = usePreloadedQuery(
+    //     graphql`
+    //         query ProfilePageQuery {
+    //             currentUser {
+    //                 name
+    //             }
+    //         }
+    //     `,
+    // );
+    // console.log("....", data);
     return (
         <body className={classes.body}>
             <div className={classes.header}>
