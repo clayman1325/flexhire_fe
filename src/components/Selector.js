@@ -1,7 +1,9 @@
-const Selector = () => {
+import classes from "./Selector.module.css";
+
+const Selector = (props) => {
     return (
-        <div>
-            <p>Drop down</p>
+        <div className={classes.main}>
+            <p>{props.name}</p>
         </div>
     )
 }

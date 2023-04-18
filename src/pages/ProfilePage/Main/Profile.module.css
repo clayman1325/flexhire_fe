@@ -15,7 +15,7 @@
 }
 .info {
     margin-left: 10%;
-    width: 75%;
+    width: 80%;
     display:flex;
     flex-direction: column;
 }
@@ -29,7 +29,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.bottom p {
+    background-color: rgb(121, 211, 239);
+    border-radius: 20%;
+    font-size: 12px;
+    padding:10px;
+}
 .user_name {
     width:35%;
     height: 60px;
+}
+.edit {
+    width: 5%;
+    height: 100%;
+}
+.edit Button {
+    margin: 70%;
+    font-size: 10px;
 }

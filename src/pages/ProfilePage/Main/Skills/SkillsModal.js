@@ -1,5 +1,6 @@
 import classes from "./SkillsModal.module.css";
 import Skill from "./Skill";
+import Button from '@mui/material/Button';
 
 const SkillsModal = (props) => {
     const generalSkills = () => {
@@ -87,7 +88,7 @@ const SkillsModal = (props) => {
                     </div>
                 </body>
                 <footer className={classes.footer}>
-                    <button onClick={handleClose}> Close </button>
+                    <Button variant="contained" onClick={handleClose}> Close </Button>
                 </footer>
             </div>
         </div>

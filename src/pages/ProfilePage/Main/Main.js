@@ -1,4 +1,5 @@
 import classes from "./Main.module.css";
+import Button from '@mui/material/Button';
 import skills_classes from "./Skills/SkillsModal.module.css";
 import Attributes from "./Attributes";
 import { useState } from "react";
@@ -18,7 +19,7 @@ const Main = () => {
             <Profile />
             <div className={classes.skills}>
                 <div className={classes.skills_button}>
-                    <button onClick={handleSkillsModal}> Skills </button>
+                <Button variant="contained" onClick={handleSkillsModal}> Skills </Button>
                 </div>
             </div>
         </div>

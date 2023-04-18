@@ -1,4 +1,5 @@
 import classes from "./Profile.module.css";
+import Button from '@mui/material/Button';
 import Attribute from "../../../components/Attribute"
 import Selector from "../../../components/Selector"
 import ProfilePic from "./profile_img.jpeg"
@@ -15,15 +16,16 @@ const Profile = () => {
                         <div className={classes.user_name}>
                             <Attribute name="David Mejia"/>
                         </div>
-                        <Selector />
-                        <Selector />
+                        <Selector name={"Technology"}/>
+                        <Selector name={"5 years experience"}/>
                     </div>
                     <div className={classes.bottom}>
                         <p> Fullstack </p>
                         <p> Frontend</p>
                         <p> Backend</p>
-                        <p></p>
-                        <button> Edit </button>
+                        <div className={classes.edit}>
+                            <Button variant="contained"> Edit </Button>
+                        </div>
                     </div>
                 </div>
             </div>
