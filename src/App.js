@@ -4,10 +4,10 @@ import ProfilePage from './pages/ProfilePage/ProfilePage.js';
 
 function App() {
   return (
-    <div className={classes.landing}>
-      <Aside className={classes.aside}/>
-      <ProfilePage className={classes.body}/>
-    </div>
+      <div className={classes.landing}>
+        <Aside className={classes.aside}/>
+        <ProfilePage className={classes.body}/>
+      </div>
   );
 }
 
